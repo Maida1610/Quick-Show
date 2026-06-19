@@ -4,7 +4,7 @@ import ReactPlayer from "react-player";
 import BlurCircle from "./BlurCircle";
 import { PlayCircleIcon } from "lucide-react";
 
-const TrailersSection = () => {
+const TrailerSection = () => {
   const [currentTrailer, setCurrentTrailer] = useState(dummyTrailers[0]);
 
   return (
@@ -47,4 +47,4 @@ const TrailersSection = () => {
   );
 };
 
-export default TrailersSection;
+export default TrailerSection;
